@@ -1,0 +1,81 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  font-family: "Barlow", sans-serif;
+  color: white;
+}
+main {
+  max-width: 50rem;
+  margin-left: 36%;
+  margin-right: 36%;
+  margin-top: 5%;
+  padding: 1rem 1.6rem 2rem 1.6rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  border: 3px black solid;
+  opacity: 0.7;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  color: white;
+}
+section {
+  background: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  padding: 0 1.6rem;
+  margin-bottom: 1.1rem;
+  border-radius: 1rem;
+}
+section > div {
+  padding: 0.3rem 0;
+}
+.bill {
+  display: flex;
+}
+.bill label {
+  flex: 1;
+}
+.bill input {
+  flex: 3;
+}
+
+input[type="number"] {
+  background-color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  color: white;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.total {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  outline-color: white;
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  opacity: 0.8;
+}
