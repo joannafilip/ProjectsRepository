@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(184, 0, 0);
+}
+
+img {
+  width: 70%;
+  display : block;
+  text-align: center;
+  margin: 5% 15% 15% 15%;
+}
+
+.partie-input {
+  margin-left : 5%;
+  margin-top : 1%;
+  margin-bottom : 1%;
+}
+.popup {
+  width: 30%;
+  height: 65%;
+  top: 20%;
+  left: 35%;
+  background-color: rgb(13, 12, 14);
+  position: fixed;
+}
+
+.popup img {
+  width: 150px;
+  height: 150px;
+  margin-left: 32%;
+}
+h1 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.close {
+  position: absolute;
+  margin-left: 94%;
+  font-size: 1.2rem;
+}
+.more {
+  position: absolute;
+  margin-left: 45%;
+  margin-top: -9%;
+  font-size: 1.1 rem;
+  width : 50px;
+}
