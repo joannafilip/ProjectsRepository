@@ -21,12 +21,21 @@ img {
   left: 35%;
   background-color: rgb(13, 12, 14);
   position: fixed;
+  @media only screen and (max-width: 640px) {
+    width: 90%;
+    top: 7%;
+    left: 5%;
+    font-size: 13px;
+  }
 }
 
 .popup img {
   width: 150px;
   height: 150px;
   margin-left: 36%;
+  @media only screen and (max-width: 640px) {
+    margin-left: 30%;
+  }
 }
 h1 {
   text-align: center;

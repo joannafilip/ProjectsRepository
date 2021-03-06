@@ -7,7 +7,7 @@ const Bd = [
   },
   {
     image: 'goat.jpg',
-    nom: 'Goat',
+    nom: 'Chèvre',
     modulo: 11,
     description: 'Tendres, polies, intelligents et bienveillants. Ils ont une sensibilité particulière à l"art et à la beauté et un goût particulier pour la tranquillité. Ils sont sages, doux et compatissants et peuvent faire face aux affaires avec prudence.',
   },
@@ -43,13 +43,13 @@ const Bd = [
   },
   {
     image: 'cocq.png',
-    nom: 'Cocq',
+    nom: 'Coq',
     modulo: 1,
     description: 'Intelligent, digne, optimiste, romantique, sociable, esprit vif, confiant, agile, motivateur, curieux.',
   },
   {
     image: 'monkey.jpg',
-    nom: 'Monkey',
+    nom: 'Singe',
     modulo: 0,
     description: "Intelligent, digne, optimiste, romantique, sociable, esprit vif, confiant, agile, motivateur, curieux. Le natif du 9ème signe astrologique du zodiaque chinois a une personnalité agile et n'est jamais en panne d'idées.",
   },
